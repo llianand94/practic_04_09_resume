@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/reset.css" /> -->
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Document</title>
+    <title>Resume</title>
   </head>
   <body>
     <section class="resumes-container">
       <article class="resume">
-        <header>
+        <header class="header">
           <div class="photo-wrapper">
             <img
               src="./assets/img/PH-112909987.jpg"
@@ -17,57 +17,59 @@
               class="photo"
             />
           </div>
-          <h1>vladislav baidak</h1>
+          <h1 class="name-header bold capitalize">vladislav baidak</h1>
           <p class="email">exampleemail@gmail.com</p>
           <p class="phone">+38(098)999-99-99</p>
-          <p class="adress">kyiv, ukraine</p>
+          <p class="adress">Kyiv, Ukraine</p>
         </header>
-        <br />
+        <hr />
         <div class="find-container">
-          <p class="text-find"></p>
+          <div class="text-find"><h2><span class="capitalize">lead backend engineer </span> with 8+ years of experience</h2>
+          </div>
+          
           <div class="img-container">
-            <img src="./assets/img/earth.png" alt="" />
-            <img src="./assets/img/in.png" alt="" />
-            <img src="./assets/img/facebook.png" alt="" />
-            <img src="./assets/img/twitter.png" alt="" />
+            <a href="#"><img src="./assets/img/earth.png" alt="earth" class="img"/></a>
+            <a href="#"><img src="./assets/img/in.png" alt="in" class="img"/></a>
+            <a href="#"><img src="./assets/img/facebook.png" alt="facebook" class="img"/></a>
+            <a href="#"><img src="./assets/img/twitter.png" alt="twitter" class="img"/></a>
           </div>
         </div>
-        <br />
+        <hr>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, minus
+          <span class="bold capitalize">Lorem ipsum dolor sit</span> amet consectetur adipisicing elit. Sed, minus
           laborum at dolorem possimus harum distinctio debitis placeat
           necessitatibus culpa atque. Dolorum praesentium id temporibus eos
           itaque! Ex praesentium voluptates, reprehenderit minima aspernatur qui
           exercitationem, quaerat odio porro possimus labore.
         </p>
-        <br />
-        <h2>skills</h2>
-        <br />
-        <article class="body-container">
-          <h3>tech stack</h3>
+        <hr />
+      </article>
+        <article>
+        <h2 class="bold capitalize">skills</h2>
+        <hr />        
+          <h3 class="bold capitalize">tech stack</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, dicta?</p>
-          <h3>databases</h3>
-          <ul>
-            <li>SQL:Oracle 12c, MS SQL Server, MySQL, MariaDB, PostgreSQL, BD2</li>
-            <li>NoSQL:MongoDB</li>
+          <h3 class="bold capitalize">databases</h3>
+          <ul class="list">
+            <li><span class="bold capitalize">SQL</span>:Oracle 12c, MS SQL Server, MySQL, MariaDB, PostgreSQL, BD2</li>
+            <li><span class="bold capitalize">NoSQL</span>:MongoDB</li>
           </ul>
-          <h3>environment & tools</h3>
+          <h3 class="bold capitalize">environment & tools</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </article>
-        <br>
+        <hr>
         <footer>
-          <h2>experience</h2>
-          <br>
-          <h3>scalified lls</h3>
-          <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-          <ul>
+          <h2 class="bold capitalize">experience</h2>
+          <hr>
+          <h3 class="bold capitalize">scalified lls</h3>
+          <h3 class="bold capitalize">Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+          <ul class="list">
             <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, ratione.</li>
             <li>Ipsum fugiat esse vel tempore? Quis delectus atque voluptatem facere.</li>
             <li>Eligendi, quam. Esse omnis, aspernatur alias quidem explicabo deleniti minima?</li>
             <li>Animi corrupti earum non, est natus incidunt placeat id nisi.</li>
           </ul>
-        </footer>
-             
+        </footer>             
       </article>
     </section>
   </body>
